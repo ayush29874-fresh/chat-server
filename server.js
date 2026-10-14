@@ -11,7 +11,7 @@ const { Server } = require('socket.io');
 
 const User = require('./models/User');
 const Message = require('./models/Message');
-const Group = require('./models/Group');
+const Group = require('./models/group');
 const auth = require('./middleware/auth');
 
 const { PORT = 3000, MONGO_URI, JWT_SECRET, CLIENT_ORIGIN } = process.env;
